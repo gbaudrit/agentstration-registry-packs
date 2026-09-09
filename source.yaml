@@ -7,9 +7,9 @@ definition:
   displayName: Agentstration Pack Registry
   description: Reusable Packs published for Agentstration.
   publisher:
-    name: gbaudrit
-    displayName: Guillaume Baudrit
-    url: https://github.com/gbaudrit
+    name: agentstration
+    displayName: Agentstration
+    url: https://github.com/gbaudrit/agentstration
   bindings:
     - name: git-distribution
       targetKind: sourceProvider
