@@ -1,0 +1,13 @@
+apiVersion: agentstration.io/v1
+kind: PackCatalog
+metadata:
+  name: agentstration-packs
+definition:
+  displayName: Agentstration Packs
+  description: Reusable Packs ready to preview and install in Agentstration.
+  entries:
+    - name: say-hello
+      displayName: Say hello
+      description: Installs a minimal Agent that greets the user.
+      path: artifacts/say-hello-1.0.0.zip
+

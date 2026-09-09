@@ -1,0 +1,31 @@
+apiVersion: agentstration.io/v1
+kind: Pack
+metadata:
+  name: say-hello
+  publisher: gbaudrit
+  version: 1.0.0
+  audience: universal
+  purpose: sample
+  displayName: Say hello
+  description: Installs a minimal Agent that greets the user.
+  categories:
+    - samples
+  tags:
+    - hello
+    - getting-started
+definition:
+  targetScope: workspace
+  bindings:
+    - name: hello-model
+      targetKind: modelProfile
+      displayName: Model profile
+      description: Model profile used by the Say hello Agent.
+      required: true
+    - name: hello-runtime
+      targetKind: runtimeProfile
+      displayName: Runtime profile
+      description: Runtime profile used to execute the Say hello Agent.
+      required: true
+  resources:
+    - agents/say-hello.yaml
+
