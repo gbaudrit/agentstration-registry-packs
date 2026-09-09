@@ -8,7 +8,7 @@ definition:
   description: Reusable Packs published for Agentstration.
   publisher:
     name: gbaudrit
-    displayName: Gauthier Baudrit
+    displayName: Guillaume Baudrit
     url: https://github.com/gbaudrit
   bindings:
     - name: git-distribution
@@ -30,4 +30,3 @@ definition:
   catalogs:
     - kind: PackCatalog
       path: catalogs/packs.yaml
-

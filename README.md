@@ -22,6 +22,5 @@ During preview, select:
 - one local Runtime Profile for `hello-runtime`.
 
 The Pack installs one workspace-owned Agent. The published archive is
-`artifacts/say-hello-1.0.0.zip`; its editable sources remain under
-`packs/say-hello/`.
-
+`artifacts/say-hello-1.0.0.zip`. This repository contains distribution
+artifacts only; editable Pack sources are maintained separately.
